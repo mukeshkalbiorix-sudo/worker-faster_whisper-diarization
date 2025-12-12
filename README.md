@@ -1,6 +1,6 @@
 ![Faster Whisper Logo](https://5ccaof7hvfzuzf4p.public.blob.vercel-storage.com/banner-pjbGKw0buxbWGhMVC165Gf9qgqWo7I.jpeg)
 
-A  fork of [Runpod's official Faster Whisper serverless worker](https://github.com/runpod-workers/worker-faster_whisper) with [pyannote](https://github.com/pyannote/pyannote-audio)-fueled diarization. `diarize` input flag added to enable/disable diarization. When creating an endpoint, it's required to set CUDA version to 12.6 and all the numbers above (under 'Advanced' tab), otherwise it may not work.
+A fork of [Runpod's official Faster Whisper serverless worker](https://github.com/runpod-workers/worker-faster_whisper) with [pyannote](https://github.com/pyannote/pyannote-audio)-fueled diarization. `diarize` input flag added to enable/disable diarization. When creating an endpoint, it's required to set CUDA version to 12.6 and all the numbers above (under 'Advanced' tab), otherwise it may not work.
 
 [Faster Whisper](https://github.com/guillaumekln/faster-whisper) is designed to process audio files using various Whisper models, with options for transcription formatting, language translation and more.
 
